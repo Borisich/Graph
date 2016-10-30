@@ -3,8 +3,8 @@ var app = express();
 var server = require('http').Server(app);
 var io = require('socket.io')(server);
 
-server.listen(80);
-console.log ('server running');
+server.listen(5000);
+console.log ('server running. Listen 5000');
 
 app.use(express.static('client'));
 
